@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 7%;
+  background-color: #2b2929;
+  padding: 0 10px;
+}
+header > div {
+  width: 50%;
+  font-size: 2rem;
+  color: white;
+}
+header > div:nth-child(1) > span {
+  letter-spacing: 5px;
+  font-weight: 700;
+}
